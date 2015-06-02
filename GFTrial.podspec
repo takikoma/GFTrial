@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license          = { :"type" => "MIT"}
   s.authors           = "gaofeng"
   s.source           = { :git => "https://github.com/takikoma/GFTrial.git",
-                        :tag => #{s.version}}
+                        :tag => “v#{s.version}”}
 
   s.platform     = :ios, '6.0'
 
