@@ -12,13 +12,14 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0.1"
   s.summary          = "GFTrial"
   s.description      = <<-DESC
-                       GFTrial
+                       My GFTrial
                        DESC
   s.homepage         = "https://github.com/takikoma"
-  s.license          = { :"type" => "MIT"}
+  s.license          = { :"type" => "Copyright",
+                         :"text" => " Copyright 2015 Gao Feng \n"}
   s.authors           = "gaofeng"
   s.source           = { :git => "https://github.com/takikoma/GFTrial.git",
-                        :tag => "v#{s.version}"}
+                        :tag => "v1.0.0.1"}
 
   s.platform     = :ios, '6.0'
 
