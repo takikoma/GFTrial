@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GFTrial"
-  s.version          = "1.0.0.2"
+  s.version          = "1.0.0.3"
   s.summary          = "GFTrial"
   s.description      = <<-DESC
                        My GFTrial
