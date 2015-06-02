@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GFTrial"
-  s.version          = "1.0.0.1"
+  s.version          = "1.0.0.2"
   s.summary          = "GFTrial"
   s.description      = <<-DESC
                        My GFTrial
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
                          :"text" => " Copyright 2015 Gao Feng \n"}
   s.authors           = "gaofeng"
   s.source           = { :git => "https://github.com/takikoma/GFTrial.git",
-                        :tag => "v1.0.0.1"}
+                         :tag => "#{s.version}"}
 
   s.platform     = :ios, '6.0'
 
