@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
   s.license          = { :"type" => "Copyright",
                          :"text" => " Copyright 2015 Gao Feng \n"}
   s.authors           = "gaofeng"
-  s.source           = { :git => "https://github.com/takikoma/GFTrial.git",
-                         :tag => "#{s.version}"}
+#  s.source           = { :git => "https://github.com/takikoma/GFTrial.git",
+#                         :tag => "#{s.version}"}
+  s.source           = { :git => "https://github.com/takikoma/GFTrial.git"}
 
   s.platform     = :ios, '6.0'
 
@@ -27,5 +28,9 @@ Pod::Spec.new do |s|
   s.vendored_libraries = '*.a'
   s.frameworks = 'SystemConfiguration', 'AVFoundation', 'CoreTelephony'
   s.libraries = 'sqlite3.0', 'z', 'stdc++.6.0.9'
+
+  s.prepare_command = <<-CMD
+    unzip SDK.zip
+  CMD
 
 end
